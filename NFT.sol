@@ -18,3 +18,16 @@ contract HelloWorld {
         message = newMessage;
     }
 }
+
+
+Solidity
+   ↓
+NFT Smart Contract
+   ↓
+Mint
+   ↓
+Token #1
+Token #2
+Token #3
+   ↓
+Wallet
