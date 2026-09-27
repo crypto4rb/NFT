@@ -9,3 +9,12 @@ contract HelloWorld {
 pragma solidity ^0.8.20;
 contract HelloWorld {
 string public message = "Hello Blockchain";
+
+contract HelloWorld {
+
+    string public message = "Hello";
+
+    function changeMessage(string memory newMessage) public {
+        message = newMessage;
+    }
+}
